@@ -3,6 +3,7 @@ import random
 import math
 from examples.gcd import *
 from examples.fd import *
+from free_chr.finite_domains.constraints import in_domain
 
 class TestGCD(unittest.TestCase):
     def test_gcd_solver(self):
